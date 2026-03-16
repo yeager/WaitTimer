@@ -1,6 +1,7 @@
 """WaitTimer - Visuell väntetimer för barn."""
 
 import gi
+from waittimer.i18n import _
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 from gi.repository import Gtk, Adw, GLib, Gdk
@@ -100,22 +101,22 @@ class WaitTimerApp(Adw.Application):
         main_box.set_halign(Gtk.Align.CENTER)
 
         # Status label
-        self.status_label = Gtk.Label(label="Välj en tid att vänta!")
+        self.status_label = Gtk.Label(label=_("Välj en tid att vänta!")
         self.status_label.add_css_class("status-label")
         main_box.append(self.status_label)
 
         # Time display
-        self.time_label = Gtk.Label(label="00:00")
+        self.time_label = Gtk.Label(label=_("00:00")
         self.time_label.add_css_class("time-display")
         main_box.append(self.time_label)
 
         # Progress text
-        self.progress_label = Gtk.Label(label="")
+        self.progress_label = Gtk.Label(label=_("")
         self.progress_label.add_css_class("progress-label")
         main_box.append(self.progress_label)
 
         # Celebration label (hidden by default)
-        self.celebration_label = Gtk.Label(label="")
+        self.celebration_label = Gtk.Label(label=_("")
         self.celebration_label.add_css_class("celebration-label")
         self.celebration_label.set_visible(False)
         main_box.append(self.celebration_label)
@@ -140,13 +141,13 @@ class WaitTimerApp(Adw.Application):
         control_box.set_halign(Gtk.Align.CENTER)
         control_box.set_margin_top(10)
 
-        self.pause_btn = Gtk.Button(label="⏸ Pausa")
+        self.pause_btn = Gtk.Button(label=_("⏸ Pausa")
         self.pause_btn.add_css_class("control-button")
         self.pause_btn.connect("clicked", self.on_pause)
         self.pause_btn.set_visible(False)
         control_box.append(self.pause_btn)
 
-        self.stop_btn = Gtk.Button(label="⏹ Avbryt")
+        self.stop_btn = Gtk.Button(label=_("⏹ Avbryt")
         self.stop_btn.add_css_class("control-button")
         self.stop_btn.add_css_class("destructive-action")
         self.stop_btn.connect("clicked", self.on_stop)
