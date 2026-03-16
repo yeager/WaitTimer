@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=WaitTimer
+Name[sv]=Väntetimer
+Comment=Visual timer for waiting
+Comment[sv]=Visuell timer för väntesituationer
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m waittimer
+Icon=waittimer
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
