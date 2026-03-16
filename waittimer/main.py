@@ -267,7 +267,7 @@ class WaitTimerApp(Adw.Application):
             self.pause_btn.set_label("⏸ Pausa")
             self.status_label.set_text("Vänta lite till...")
         else:
-            self.pause_btn.set_label("▶ Fortsätt")
+            self.pause_btn.set_label(_("▶ Continue"))
             self.status_label.set_text("Pausad")
 
     def on_stop(self, btn):
