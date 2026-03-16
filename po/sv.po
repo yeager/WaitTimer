@@ -1,0 +1,27 @@
+# Swedish translation
+# Copyright (C) 2024
+# This file is distributed under the same license as the package.
+#
+msgid ""
+msgstr ""
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid ""
+msgstr ""
+
+msgid "00:00"
+msgstr "00:00"
+
+msgid "Välj en tid att vänta!"
+msgstr "Select en tid att vänta!"
+
+msgid "⏸ Pausa"
+msgstr "⏸ Pause"
+
+msgid "⏹ Avbryt"
+msgstr "⏹ Cancel"
+

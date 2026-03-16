@@ -101,7 +101,7 @@ class WaitTimerApp(Adw.Application):
         main_box.set_halign(Gtk.Align.CENTER)
 
         # Status label
-        self.status_label = Gtk.Label(label=_("Välj en tid att vänta!")
+        self.status_label = Gtk.Label(label=_("Select en tid att vänta!")
         self.status_label.add_css_class("status-label")
         main_box.append(self.status_label)
 
@@ -141,13 +141,13 @@ class WaitTimerApp(Adw.Application):
         control_box.set_halign(Gtk.Align.CENTER)
         control_box.set_margin_top(10)
 
-        self.pause_btn = Gtk.Button(label=_("⏸ Pausa")
+        self.pause_btn = Gtk.Button(label=_("⏸ Pause")
         self.pause_btn.add_css_class("control-button")
         self.pause_btn.connect("clicked", self.on_pause)
         self.pause_btn.set_visible(False)
         control_box.append(self.pause_btn)
 
-        self.stop_btn = Gtk.Button(label=_("⏹ Avbryt")
+        self.stop_btn = Gtk.Button(label=_("⏹ Cancel")
         self.stop_btn.add_css_class("control-button")
         self.stop_btn.add_css_class("destructive-action")
         self.stop_btn.connect("clicked", self.on_stop)
