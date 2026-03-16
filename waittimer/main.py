@@ -101,7 +101,7 @@ class WaitTimerApp(Adw.Application):
         main_box.set_halign(Gtk.Align.CENTER)
 
         # Status label
-        self.status_label = Gtk.Label(label=_("Select en tid att vänta!")
+        self.status_label = Gtk.Label(label=_("Choose a time to wait!")
         self.status_label.add_css_class("status-label")
         main_box.append(self.status_label)
 
