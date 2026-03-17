@@ -1,27 +1,20 @@
+# Translation file for WaitTimer
 msgid ""
 msgstr ""
-"Project-Id-Version: waittimer 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-03-16 12:00+0100\n"
-"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
-"Language-Team: Swedish\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Choose a time to wait!"
-msgstr "Select en tid att vänta!"
+msgstr "Välj en tidsperiod att vänta!"
 
 msgid "00:00"
 msgstr "00:00"
 
-msgid "Välj en tid att vänta!"
-msgstr "Select en tid att vänta!"
+msgid "⏸ Pause"
+msgstr "⏸ Pausa"
 
-msgid "⏸ Pausa"
-msgstr "⏸ Pause"
-
-msgid "⏹ Avbryt"
-msgstr "⏹ Cancel"
+msgid "⏹ Cancel"
+msgstr "⏹ Avbryt"
 
